@@ -824,7 +824,7 @@ footer[role="contentinfo"] a:hover {
 }
 .entry-header {
 	margin-bottom: 24px;
-	margin-bottom: 1.714285714rem;
+	margin-bottom: 1.214285714rem;
 }
 .entry-header img.wp-post-image {
 	margin-bottom: 24px;
@@ -1113,7 +1113,7 @@ img.aligncenter,
     /* Border Line for Article Bottom*/
 	border-bottom: 1px solid rgba(0, 0, 0, 0.24);
 	margin-bottom: 72px;
-	margin-bottom: 5.142857143rem;
+	margin-bottom: 2.142857143rem;
 	padding-bottom: 24px;
 	padding-bottom: 1.714285714rem;
 	word-wrap: break-word;

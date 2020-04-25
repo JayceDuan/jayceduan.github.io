@@ -4,20 +4,34 @@
   <meta charset="utf-8">
   
   
-  <meta name="description" content="1
-2
-3
-4
-5
-6
+  <meta name="description" content="这是文字
+这是文字这是文字
+这是文字这是文字
+这是文字这是文字
+这是文字这是文字
 
 
-#include
+#include 
+#include 
 
-int main(){
-    printf(&#34;Hello, my friend! \n&#34;);
-    return 0;
-}" />
+struct car
+{
+    char brand[30];
+    char model[30];
+    double hp;
+    double price;
+};
+int main(void)
+{
+    size_t into = offsetof(struct car, hp);  /* offset of hp member */
+    printf(&#34;%zd\n&#34;, into);
+}
+
+
+
+这是文字这是文字
+这是文字这是文字
+这是文字这是文字" />
   
 
   
@@ -26,17 +40,17 @@ int main(){
   
   
   
-  <title>TestCodeHighLight | 初夏，夜微凉</title>
+  <title>testcodehighlight002 | 初夏，夜微凉</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="1 2 3 4 5 6   #include  int main(){     printf(&quot;Hello, my friend! \n&quot;);     return 0; }">
+  <meta name="description" content="这是文字 这是文字这是文字 这是文字这是文字 这是文字这是文字 这是文字这是文字   #include  #include   struct car {     char brand[30];     char model[30];     double hp;     double price; }; int main(void) {     size_t into &#x3D; offsetof(str">
 <meta property="og:type" content="article">
-<meta property="og:title" content="TestCodeHighLight">
-<meta property="og:url" content="http://www.ihaveadream.one/2020/04/25/TestCodeHighLight/index.html">
+<meta property="og:title" content="testcodehighlight002">
+<meta property="og:url" content="http://www.ihaveadream.one/2020/04/25/testcodehighlight002/index.html">
 <meta property="og:site_name" content="初夏，夜微凉">
-<meta property="og:description" content="1 2 3 4 5 6   #include  int main(){     printf(&quot;Hello, my friend! \n&quot;);     return 0; }">
+<meta property="og:description" content="这是文字 这是文字这是文字 这是文字这是文字 这是文字这是文字 这是文字这是文字   #include  #include   struct car {     char brand[30];     char model[30];     double hp;     double price; }; int main(void) {     size_t into &#x3D; offsetof(str">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2020-04-25T12:49:23.000Z">
-<meta property="article:modified_time" content="2020-04-25T12:50:42.583Z">
+<meta property="article:published_time" content="2020-04-25T14:44:22.000Z">
+<meta property="article:modified_time" content="2020-04-25T14:47:23.305Z">
 <meta property="article:author" content="Jayce Duan">
 <meta name="twitter:card" content="summary">
   
@@ -48,11 +62,13 @@ int main(){
 
   
 
-  
   <!-- baidu webmaster push -->
   <script src='//push.zhanzhang.baidu.com/push.js'></script>
+  <!--代码高亮-->
+  <link href="/css/prettify.css" type="text/css" rel="stylesheet" />
+  <script type="text/javascript" src="/js/prettify.js"></script>
 <meta name="generator" content="Hexo 4.2.0"></head>
-<body class="home blog custom-background custom-font-enabled single-author">
+<body  onload="prettyPrint()" class="home blog custom-background custom-font-enabled single-author" >
   <div id="page" class="hfeed site">
       <header id="masthead" class="site-header" role="banner">
     <hgroup>
@@ -82,15 +98,16 @@ int main(){
 </header>
 
       <div id="main" class="wrapper">
-        <div id="primary" class="site-content"><div id="content" role="main"><article id="post-TestCodeHighLight" class="post-TestCodeHighLight post type-post status-publish format-standard hentry">
+        <div id="primary" class="site-content"><div id="content" role="main"><article id="post-testcodehighlight002" class="post-testcodehighlight002 post type-post status-publish format-standard hentry">
     <!---->
 
       <header class="entry-header">
+		
         
         
   
     <h1 class="entry-title article-title">
-      TestCodeHighLight
+      testcodehighlight002
     </h1>
   
 
@@ -105,8 +122,66 @@ int main(){
 	  
 		
 		
-		  <figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"Hello, my friend! \n"</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+		  <p>这是文字<br>
+这是文字这是文字<br>
+这是文字这是文字<br>
+这是文字这是文字<br>
+这是文字这是文字</p>
+<pre class="prettyprint" id="c">
+#include <stdio.h>
+#include <stddef.h>
 
+struct car
+{
+    char brand[30];
+    char model[30];
+    double hp;
+    double price;
+};
+int main(void)
+{
+    size_t into = offsetof(struct car, hp);  /* offset of hp member */
+    printf("%zd\n", into);
+}
+
+</pre>
+<p>这是文字这是文字<br>
+这是文字这是文字<br>
+这是文字这是文字<br>
+这是文字这是文字<br>
+这是文字这是文字<br>
+这是文字这是文字<br>
+这是文字这是文字<br>
+这是文字这是文字<br>
+这是文字这是文字</p>
+<pre class="prettyprint">
+.hljs {
+    font-family: "Consolas",sans-serif !important;
+    font-size: 14px !important;
+    line-height: 1.4 !important;
+    padding: 5px !important;
+}
+.cnblogs-markdown .hljs, .cnblogs-post-body .hljs {
+    font-family: "Consolas",sans-serif !important;
+    font-size: 14px !important;
+    line-height: 1.4 !important;
+    padding: 5px !important;
+}
+
+/*simplememory*/
+#google_ad_c1, #google_ad_c2 {display:none;}
+.syntaxhighlighter a, .syntaxhighlighter div, .syntaxhighlighter code, .syntaxhighlighter table, .syntaxhighlighter table td, .syntaxhighlighter table tr, .syntaxhighlighter table tbody, .syntaxhighlighter table thead, .syntaxhighlighter table caption, .syntaxhighlighter textarea {
+font-size: 14px!important;
+}
+</pre>
+<p>这是文字这是文字<br>
+这是文字这是文字<br>
+这是文字这是文字<br>
+这是文字这是文字<br>
+这是文字这是文字<br>
+这是文字这是文字<br>
+这是文字这是文字<br>
+这是文字</p>
 
 		
 	  
@@ -114,8 +189,8 @@ int main(){
 
 
     <footer class="entry-meta">
-    <a href="/2020/04/25/TestCodeHighLight/">
-    <time datetime="2020-04-25T12:49:23.000Z" class="entry-date">
+    <a href="/2020/04/25/testcodehighlight002/">
+    <time datetime="2020-04-25T14:44:22.000Z" class="entry-date">
         2020-04-25
     </time>
 </a>
@@ -160,7 +235,7 @@ int main(){
       <ul>
         
           <li>
-            <a href="/2020/04/25/TestCodeHighLight/">TestCodeHighLight</a>
+            <a href="/2020/04/25/testcodehighlight002/">testcodehighlight002</a>
           </li>
         
           <li>

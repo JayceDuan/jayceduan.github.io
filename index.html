@@ -29,11 +29,13 @@
 
   
 
-  
   <!-- baidu webmaster push -->
   <script src='//push.zhanzhang.baidu.com/push.js'></script>
+  <!--代码高亮-->
+  <link href="/css/prettify.css" type="text/css" rel="stylesheet" />
+  <script type="text/javascript" src="/js/prettify.js"></script>
 <meta name="generator" content="Hexo 4.2.0"></head>
-<body class="home blog custom-background custom-font-enabled single-author">
+<body  onload="prettyPrint()" class="home blog custom-background custom-font-enabled single-author" >
   <div id="page" class="hfeed site">
       <header id="masthead" class="site-header" role="banner">
     <hgroup>
@@ -65,15 +67,16 @@
       <div id="main" class="wrapper">
         <div id="primary" class="site-content"><div id="content" role="main">
   
-    <article id="post-TestCodeHighLight" class="post-TestCodeHighLight post type-post status-publish format-standard hentry">
+    <article id="post-testcodehighlight002" class="post-testcodehighlight002 post type-post status-publish format-standard hentry">
     <!---->
 
       <header class="entry-header">
+		
         
         
   
     <h1 class="entry-title">
-      <a class="article-title" href="/2020/04/25/TestCodeHighLight/">TestCodeHighLight</a>
+      <a class="article-title" href="/2020/04/25/testcodehighlight002/">testcodehighlight002</a>
     </h1>
   
 
@@ -86,23 +89,38 @@
 
     <div class="entry-content">
 	  
-		1
-2
-3
-4
-5
-6
+		这是文字
+这是文字这是文字
+这是文字这是文字
+这是文字这是文字
+这是文字这是文字
 
 
-#include<stdio.h>
+#include 
+#include 
 
-int main(){
-    printf("Hello, my friend! \n");
-    return 0;
+struct car
+{
+    char brand[30];
+    char model[30];
+    double hp;
+    double price;
+};
+int main(void)
+{
+    size_t into = offsetof(struct car, hp);  /* offset of hp member */
+    printf("%zd\n", into);
 }
+
+
+
+这是文字这是文字
+这是文字这是文字
+这是文字这是文字
+
 		
 		  <p class="article-more-link">
-			<a href="/2020/04/25/TestCodeHighLight/#more">More</a>
+			<a href="/2020/04/25/testcodehighlight002/#more">More</a>
 		  </p>
 		
 	  
@@ -110,8 +128,8 @@ int main(){
 
 
     <footer class="entry-meta">
-    <a href="/2020/04/25/TestCodeHighLight/">
-    <time datetime="2020-04-25T12:49:23.000Z" class="entry-date">
+    <a href="/2020/04/25/testcodehighlight002/">
+    <time datetime="2020-04-25T14:44:22.000Z" class="entry-date">
         2020-04-25
     </time>
 </a>
@@ -130,6 +148,7 @@ int main(){
     <!---->
 
       <header class="entry-header">
+		
         
         
   
@@ -148,27 +167,15 @@ int main(){
     <div class="entry-content">
 	  
 		1. 初始 设置姓名和邮箱地址
-1
-2
-
-
 $ git config --global user.name "Firstname Lastname"
 $ git config --global user.email "your_email@example.com"
 
 
 2. 设置 SSH Key
-1
-2
-3
-4
-5
-6
-
-
 $ ssh-keygen -t rsa -C "your_email@example.com"
 Generating public/private rsa key pair.
 Enter file in which to save the key
-(/Users/your_
+(/Users/your_user_directory/.ssh/
 		
 		  <p class="article-more-link">
 			<a href="/2020/04/25/git简单使用/#more">More</a>
@@ -199,6 +206,7 @@ Enter file in which to save the key
     <!---->
 
       <header class="entry-header">
+		
         
         
   
@@ -265,7 +273,7 @@ Enter file in which to save the key
       <ul>
         
           <li>
-            <a href="/2020/04/25/TestCodeHighLight/">TestCodeHighLight</a>
+            <a href="/2020/04/25/testcodehighlight002/">testcodehighlight002</a>
           </li>
         
           <li>

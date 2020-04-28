@@ -1012,6 +1012,7 @@ article.sticky .featured-post {
 }
 .entry-content pre,
 .comment-content pre {
+	font-size: 17px;
     border: 1px solid rgba(0, 0, 0, 0.24);
     font-family: Consolas, Monaco, Lucida Console, monospace;
     margin-bottom: 15px;
@@ -1019,6 +1020,7 @@ article.sticky .featured-post {
     padding: 7px 15px;
     -webkit-border-radius: 2px;
     border-radius: 2px;
+	background-color:rgba(228, 228, 228, 0.8)
 }
 .entry-content pre code,
 .comment-content pre code {

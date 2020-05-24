@@ -188,7 +188,7 @@ body {
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 16px;
   line-height: 2;
-  color: #555;
+  color: #222;
   background: #f5f7f9;
 }
 @media (max-width: 767px) {
@@ -931,9 +931,9 @@ pre .javascript .function {
   display: inline-block;
   padding: 0 20px;
   font-size: 14px;
-  color: #555;
+  color: #222;
   background: #fff;
-  border: 2px solid #555;
+  border: 2px solid #222;
   text-decoration: none;
   border-radius: 2px;
   transition-property: background-color;
@@ -958,7 +958,7 @@ pre .javascript .function {
   display: block;
   width: 22px;
   height: 2px;
-  background: #555;
+  background: #222;
   border-radius: 1px;
 }
 .btn-bar+.btn-bar {
@@ -1064,14 +1064,12 @@ pre .javascript .function {
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .back-to-top {
-    right: 20px;
-    opacity: 0.8;
+    display: none !important;
   }
 }
 @media (max-width: 767px) {
   .back-to-top {
-    right: 20px;
-    opacity: 0.8;
+    display: none !important;
   }
 }
 .back-to-top.back-to-top-on {
@@ -1664,6 +1662,16 @@ pre .javascript .function {
 .sidebar a:hover {
   color: #eee;
 }
+@media (min-width: 768px) and (max-width: 991px) {
+  .sidebar {
+    display: none !important;
+  }
+}
+@media (max-width: 767px) {
+  .sidebar {
+    display: none !important;
+  }
+}
 .sidebar-inner {
   position: relative;
   padding: 20px 10px;
@@ -1691,14 +1699,12 @@ pre .javascript .function {
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .sidebar-toggle {
-    right: 20px;
-    opacity: 0.8;
+    display: none !important;
   }
 }
 @media (max-width: 767px) {
   .sidebar-toggle {
-    right: 20px;
-    opacity: 0.8;
+    display: none !important;
   }
 }
 .sidebar-toggle-line {
@@ -1800,7 +1806,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #6eb542;
+  background: #91ffec;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -1919,32 +1925,6 @@ pre .javascript .function {
 }
 .post-toc .nav .active-current > a:hover {
   color: #fc6423;
-}
-.sidebar-active #sidebar-dimmer {
-  opacity: 0.7;
-  -webkit-transform: translateX(-150%);
-  -webkit-transform: translateX(-150%);
-  -moz-transform: translateX(-150%);
-  -ms-transform: translateX(-150%);
-  -o-transform: translateX(-150%);
-  transform: translateX(-150%);
-  transition: opacity 0.2s;
-}
-#sidebar-dimmer {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 100%;
-  width: 200%;
-  height: 100%;
-  background: #000;
-  opacity: 0;
-  transition: opacity 0.2s, transform 0s 0.2s;
-}
-@media (max-width: 767px) {
-  #sidebar-dimmer {
-    display: block;
-  }
 }
 .footer {
   font-size: 14px;
@@ -2894,7 +2874,7 @@ header.post-header {
 .sidebar-inner {
   box-sizing: border-box;
   width: 240px;
-  color: #555;
+  color: #222;
   background-color: rgba(255,255,255,0.85);
   box-shadow: initial;
   border-radius: initial;

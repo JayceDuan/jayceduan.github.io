@@ -1806,7 +1806,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #fff2ff;
+  background: #a88e4e;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3034,6 +3034,11 @@ body {
   padding-right: 5px;
   margin-left: 15px;
 }
+@media (max-width: 767px) {
+  .my-post-time {
+    line-height: 43px;
+  }
+}
 .mypost {
   position: relative;
   margin-bottom: 1rem;
@@ -3052,6 +3057,12 @@ a.my-post-title-link:before {
   font: normal normal normal 14px/1 FontAwesome;
   font-size: 15px;
   line-height: 16px;
+}
+@media (max-width: 767px) {
+  a.my-post-title-link:before {
+    font-size: 14px;
+    line-height: 45px;
+  }
 }
 a.my-post-title-link {
   text-decoration: none;

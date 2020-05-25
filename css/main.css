@@ -1111,7 +1111,7 @@ pre .javascript .function {
   vertical-align: top;
   line-height: 36px;
   font-size: 20px;
-  font-weight: normal;
+  font-weight: 900;
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 .site-subtitle {
@@ -1806,7 +1806,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #551353;
+  background: #32ff24;
 }
 .links-of-blogroll {
   font-size: 13px;

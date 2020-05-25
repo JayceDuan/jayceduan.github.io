@@ -486,7 +486,7 @@ pre,
   overflow: auto;
   margin: 20px 0;
   padding: 0;
-  font-size: 15px;
+  font-size: 13px;
   color: #4d4d4c;
   background: #f7f7f7;
   line-height: 1.4;
@@ -501,7 +501,7 @@ code {
   color: #222;
   background: #eee;
   border-radius: 3px;
-  font-size: 15px;
+  font-size: 13px;
 }
 pre {
   padding: 10px;
@@ -1806,7 +1806,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffff1d;
+  background: #5dff2a;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2724,7 +2724,7 @@ pre .javascript .function {
   padding-right: 260px;
 }
 header {
-  width: 90% !important;
+  width: 85% !important;
 }
 header.post-header {
   width: auto !important;
@@ -2733,7 +2733,7 @@ header.post-header {
   width: 85%;
 }
 .content-wrap {
-  width: calc(100% - 240px);
+  width: calc(100% - 260px);
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .header {

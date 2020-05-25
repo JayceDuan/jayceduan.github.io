@@ -1806,7 +1806,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffd671;
+  background: #1d8ab4;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2778,11 +2778,13 @@ header.post-header {
 @media (min-width: 768px) and (max-width: 991px) {
   .site-meta {
     box-shadow: 0 0 16px rgba(0,0,0,0.5);
+    height: 120px;
   }
 }
 @media (max-width: 767px) {
   .site-meta {
     box-shadow: 0 0 16px rgba(0,0,0,0.5);
+    height: 120px;
   }
 }
 .brand {

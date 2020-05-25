@@ -1806,7 +1806,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ddf147;
+  background: #fff2ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3046,12 +3046,12 @@ body {
 a.my-post-title-link:before {
   top: 10px;
   width: 18px;
-  height: 18px;
+  height: 16px;
   content: "📚";
   margin-right: 5px;
   font: normal normal normal 14px/1 FontAwesome;
   font-size: 15px;
-  line-height: 18px;
+  line-height: 16px;
 }
 a.my-post-title-link {
   text-decoration: none;
@@ -3060,6 +3060,17 @@ a.my-post-title-link {
 }
 @media (max-width: 767px) {
   a.my-post-title-link {
+    font-size: 14px;
+  }
+}
+a.my-post-title-link:hover {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  color: #6495ed;
+}
+@media (max-width: 767px) {
+  a.my-post-title-link:hover {
     font-size: 14px;
   }
 }
@@ -3080,6 +3091,11 @@ a.my-post-title-link {
   -o-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
+}
+.my-post-title-link {
+  font-size: 15px;
+  font-weight: 500;
+  border-bottom: none;
 }
 .my-post-meta {
   position: absolute;

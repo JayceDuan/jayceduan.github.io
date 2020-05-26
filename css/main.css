@@ -1801,7 +1801,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #b13c79;
+  background: #82af1a;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3106,15 +3106,6 @@ a.my-post-title-link:hover {
   font-size: 0.8rem;
   cursor: pointer;
   line-height: 0;
-}
-.my-post-header {
-  position: top;
-  margin-bottom: 1rem;
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  -ms-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
 }
 .my-post-title-link {
   font-size: 15px;

@@ -928,19 +928,13 @@ pre .javascript .function {
   display: block !important;
 }
 .btn {
-  display: inline-block;
-  padding: 0 20px;
-  font-size: 12px;
+  border-bottom: 1px solid #000;
   color: #222;
-  background: #fff;
-  border: 1px solid #222;
   text-decoration: none;
-  border-radius: 2px;
   transition-property: background-color;
   transition-duration: 0.2s;
   transition-timing-function: ease-in-out;
   transition-delay: 0s;
-  line-height: 2;
 }
 .btn:hover {
   border-color: #222;
@@ -1441,7 +1435,7 @@ pre .javascript .function {
 .posts-expand .post-title-link {
   display: inline-block;
   position: relative;
-  color: #555;
+  color: #222;
   border-bottom: none;
   line-height: 1.2;
   vertical-align: top;
@@ -1476,7 +1470,7 @@ pre .javascript .function {
   font-size: 16px;
 }
 .posts-expand .post-meta {
-  margin: 3px 0 20px 0;
+  margin: 3px 0 8px 0;
   color: #999;
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 12px;
@@ -1528,6 +1522,7 @@ pre .javascript .function {
 }
 .post-button {
   margin-top: 10px;
+  display: contents;
 }
 .posts-expand .post-tags {
   margin-top: 40px;
@@ -1806,7 +1801,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #d23924;
+  background: #1ffff2;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2382,6 +2377,9 @@ pre .javascript .function {
 }
 .category-all-page .category-list-item {
   margin: 5px 10px;
+}
+.category-all-page .category-list-item a:hover {
+  color: #6495ed;
 }
 .category-all-page .category-list-count {
   color: #bbb;
@@ -3015,6 +3013,9 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+a {
+  border-bottom: none;
+}
 .page-archive .archive-page-counter {
   font-size: 18px;
   padding-left: 10px;
@@ -3078,7 +3079,6 @@ a.my-post-title-link {
 }
 a.my-post-title-link:hover {
   text-decoration: none;
-  font-size: 16px;
   font-weight: 400;
   color: #6495ed;
 }
@@ -3135,17 +3135,4 @@ div.post-block.tag .collection-title h2 {
   div.post-block.tag .collection-title h2 {
     font-size: 18px;
   }
-}
-.category-list-link:hover {
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  -o-transform: scale(1.1);
-  transform: scale(1.1);
-  box-shadow: 10px 10px 15px 2px rgba(0,0,0,0.12), 0 0 6px 0 rgba(104,104,105,0.1);
-  border-radius: 8px;
-  padding: 1px 1px;
-  margin-left: 5px;
-  font-size: 16px;
-  transition-duration: 0.15s;
 }

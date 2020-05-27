@@ -1801,7 +1801,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #25ee6c;
+  background: #6fa65b;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2782,7 +2782,7 @@ header.post-header {
 @media (max-width: 767px) {
   .site-meta {
     box-shadow: 0 0 16px rgba(0,0,0,0.5);
-    height: 120px;
+    height: 60px;
   }
 }
 .brand {
@@ -3012,6 +3012,10 @@ body {
   background: url("/images/body.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 .wechat2wm img {
   display: none;

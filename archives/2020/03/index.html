@@ -496,12 +496,25 @@ var _hmt = _hmt || [];
 
 
 
+<!-- edit by drawream 2020.05.27 -->
+本站已经运行<a id="days">0</a>天 |
+<script>
+var s1 = '2020-03-22';//设置4102为你1653的建内站时容间
+s1 = new Date(s1.replace(/-/g, "/"));
+s2 = new Date();
+var days = s2.getTime() - s1.getTime();
+var number_of_days = parseInt(days / (1000 * 60 * 60 * 24));
+document.getElementById('days').innerHTML = number_of_days;
+</script> 
+
+
 <!-- edit by drawream 2020.05.25 -->
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
 </script>
 <span id="busuanzi_container_site_uv">
   本站访客数<span id="busuanzi_value_site_uv"></span>人次
 </span>
+
 
         
 

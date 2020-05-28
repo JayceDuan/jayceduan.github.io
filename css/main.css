@@ -1801,7 +1801,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffffbf;
+  background: #99f;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3071,7 +3071,7 @@ a.my-post-title-link:before {
   width: 18px;
   height: 16px;
   content: " ";
-  margin-right: 5px;
+  margin-right: 0px;
   font: normal normal normal 14px/1 FontAwesome;
   font-size: 15px;
   line-height: 16px;
@@ -3089,7 +3089,7 @@ a.my-post-title-link {
 }
 @media (max-width: 767px) {
   a.my-post-title-link {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 a.my-post-title-link:hover {
@@ -3099,7 +3099,7 @@ a.my-post-title-link:hover {
 }
 @media (max-width: 767px) {
   a.my-post-title-link:hover {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 .my-post-title {
